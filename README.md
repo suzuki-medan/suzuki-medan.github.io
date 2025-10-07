@@ -11,9 +11,10 @@ Kunjungi situs kami untuk melihat daftar harga, promo, dan stok unit terbaru:
 - Suzuki XL7
 - Suzuki Ertiga
 - Suzuki Carry Pickup
-- Suzuki Baleno
+- Suzuki APV
 - Suzuki Fronx
 - Suzuki S-Presso
+- Suzuki Grand Vitara
 
 ## 💬 Hubungi Kami
 **Andreas — Sales Suzuki Medan**  
