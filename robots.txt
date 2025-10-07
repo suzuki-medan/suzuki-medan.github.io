@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://suzuki-medan.github.io/sitemap.xml
+
+# Backlink ke situs utama
+Host: suzukimedan.biz.id
