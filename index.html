@@ -36,7 +36,10 @@
     },
     "priceRange": "$$$",
     "openingHours": "Mo-Sa 08:00-17:00",
-    "brand": { "@type": "Brand", "name": "Suzuki" },
+    "brand": {
+      "@type": "Brand",
+      "name": "Suzuki"
+    },
     "sameAs": [
       "https://www.facebook.com/suzukimedanbizid",
       "https://www.instagram.com/suzukimedan.biz.id",
@@ -46,24 +49,76 @@
   </script>
 
   <style>
-    :root {
-      --primary: #004aad;
-      --accent: #0066cc;
-      --bg: #f7f9fb;
-      --text: #222;
-      --white: #fff;
-    }
-
     body {
       font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 1.5rem;
-      background: var(--bg);
-      color: var(--text);
+      margin: 0; padding: 2rem;
+      background: #f7f9fb; color: #222;
     }
-
     .container {
-      max-width: 850px;
+      max-width: 850px; margin: auto;
+      background: #fff; padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+    h1 { color: #004aad; }
+    h2 { color: #004aad; margin-top: 1.5rem; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .footer {
+      font-size: 14px; color: #555; margin-top: 2rem;
+      border-top: 1px solid #eee; padding-top: 1rem;
+      display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;
+    }
+    .qr {
+      text-align: right;
+    }
+    .badge {
+      background: #004aad;
+      color: #fff;
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-left: 10px;
+    }
+    img.qr-code {
+      width: 90px; height: 90px;
+      border: 2px solid #eee;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Dealer Resmi Suzuki Medan</h1>
+    <p>
+      <strong>Suzuki Medan Official</strong> adalah dealer resmi mobil Suzuki di kota Medan.
+      Kami menyediakan berbagai model mobil Suzuki terbaru seperti 
+      <em>Suzuki XL7, Ertiga, Fronx, dan Carry Pickup</em> dengan promo terbaik setiap bulan.
+    </p>
+
+    <h2>Hubungi Kami</h2>
+    <p>
+      🌐 Website utama: 
+      <a href="https://suzukimedan.biz.id" target="_blank" rel="dofollow">https://suzukimedan.biz.id</a><br>
+      📞 Sales: Andreas - <a href="https://wa.me/6285270880808" target="_blank">0852-7088-0808</a><br>
+      📋 Lihat harga lengkap: 
+      <a href="https://suzukimedan.biz.id/pricelist/" target="_blank" rel="dofollow">Daftar Harga Suzuki Medan</a>
+    </p>
+
+    <div class="footer">
+      <div>
+        © 2025 Suzuki Medan Official 
+        <span class="badge">Verified Dealer</span>
+      </div>
+      <div class="qr">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://suzuki-medan.github.io&size=100x100" alt="QR Suzuki Medan" class="qr-code">
+      </div>
+    </div>
+  </div>
+</body>
+</html>      max-width: 850px;
       margin: auto;
       background: var(--white);
       padding: 2rem;
