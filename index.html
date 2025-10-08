@@ -36,10 +36,7 @@
     },
     "priceRange": "$$$",
     "openingHours": "Mo-Sa 08:00-17:00",
-    "brand": {
-      "@type": "Brand",
-      "name": "Suzuki"
-    },
+    "brand": { "@type": "Brand", "name": "Suzuki" },
     "sameAs": [
       "https://www.facebook.com/suzukimedanbizid",
       "https://www.instagram.com/suzukimedan.biz.id",
@@ -49,12 +46,93 @@
   </script>
 
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 2rem; background: #f7f9fb; color: #222; }
-    h1 { color: #004aad; }
-    a { color: #0066cc; text-decoration: none; }
+    :root {
+      --primary: #004aad;
+      --accent: #0066cc;
+      --bg: #f7f9fb;
+      --text: #222;
+      --white: #fff;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 1.5rem;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .container {
+      max-width: 850px;
+      margin: auto;
+      background: var(--white);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: var(--primary);
+      font-size: 1.8rem;
+      margin-top: 0;
+    }
+
+    h2 { color: var(--primary); margin-top: 1.5rem; }
+
+    a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .container { max-width: 850px; margin: auto; background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 3px 12px rgba(0,0,0,0.1); }
+
     ul { line-height: 1.7; }
+
+    .cta {
+      display: inline-block;
+      background: var(--primary);
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      margin-top: 12px;
+      text-decoration: none;
+    }
+    .cta:hover { background: #00357a; }
+
+    .qr {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .qr img {
+      width: 130px;
+      height: 130px;
+      border: 3px solid var(--primary);
+      border-radius: 10px;
+      background: #fff;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #24292e;
+      color: #fff;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 13px;
+      margin-bottom: 8px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+      body { padding: 1rem; }
+      .container { padding: 1.5rem; }
+      h1 { font-size: 1.4rem; }
+      .qr img { width: 110px; height: 110px; }
+    }
   </style>
 </head>
 
@@ -63,7 +141,34 @@
     <h1>Dealer Resmi Suzuki Medan</h1>
     <p>
       <strong>Suzuki Medan Official</strong> adalah dealer resmi mobil Suzuki di kota Medan.
-      Kami menyediakan berbagai model mobil Suzuki terbaru seperti 
+      Kami menyediakan berbagai model mobil Suzuki terbaru seperti
+      <em>Suzuki XL7, Ertiga, Fronx, dan Carry Pickup</em> dengan promo terbaik setiap bulan.
+    </p>
+
+    <h2>Hubungi Kami</h2>
+    <p>
+      🌐 Website utama: 
+      <a href="https://suzukimedan.biz.id" target="_blank" rel="dofollow">https://suzukimedan.biz.id</a><br>
+      📞 Sales: Andreas - <a href="https://wa.me/6285270880808" target="_blank">0852-7088-0808</a><br>
+      📋 Lihat harga lengkap: 
+      <a href="https://suzukimedan.biz.id/pricelist/" target="_blank" rel="dofollow">Daftar Harga Suzuki Medan</a>
+    </p>
+
+    <div class="qr">
+      <p>Scan untuk chat WhatsApp langsung:</p>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://wa.me/6285270880808&size=150x150" alt="QR WhatsApp Suzuki Medan" loading="lazy">
+      <br>
+      <a class="cta" href="https://wa.me/6285270880808" target="_blank">💬 Chat via WhatsApp</a>
+    </div>
+
+    <div class="footer">
+      <div class="badge">✅ Verified by GitHub Pages</div>
+      <p>© 2025 Suzuki Medan Official.<br>
+      Halaman ini dibuat untuk meningkatkan kredibilitas online dan SEO dealer resmi Suzuki Medan.</p>
+    </div>
+  </div>
+</body>
+</html>      Kami menyediakan berbagai model mobil Suzuki terbaru seperti 
       <em>Suzuki XL7, Ertiga, Fronx, dan Carry Pickup</em> dengan promo terbaik setiap bulan.
     </p>
 
